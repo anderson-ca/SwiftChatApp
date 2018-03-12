@@ -22,10 +22,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // method used to configure the firebase application.
         FirebaseApp.configure()
 
-        // create consttant the connects my application to the firebase cloud database.
-        let myDatabase = Database.database().reference()
-        
-        myDatabase.setValue("We've got data!")
+        // create constant that connects my application to the firebase cloud database.
+     
         
         return true
     }
